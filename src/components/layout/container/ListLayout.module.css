@@ -1,0 +1,38 @@
+/* ListTable */
+
+.list_layout {
+    width: 98%;
+    height: auto;
+    border: 1px solid rgb(209, 206, 206);
+    margin: auto;
+ }
+
+ .list_layout a {
+    text-decoration: none;
+ }
+ 
+ .list_layout tr {
+    border-bottom-left-radius: 0px !important;
+ }
+
+ .list_layout tr:hover{
+    background-color: rgb(191, 230, 230) !important;
+ }
+ 
+ .list_layout  th {
+    background-color:  rgb(241, 237, 237) !important;
+    padding: 8px !important;
+ }
+ 
+ .list_layout table {
+     font-size: 12px !important;
+ }
+
+ .list_layout li {
+    padding: 0px !important;
+ }
+
+ .list_layout tr:nth-child() {
+    display: none;
+ }
+ 

@@ -1,0 +1,29 @@
+.container {
+    align-content: center;
+    /* background-color: black; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* You can adjust the background color and opacity as needed */
+    z-index: 100;
+}
+
+.spinClass {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+/* .spinClass p {
+    color: white;
+    margin-top: 70px;
+    background-color: none;
+    font-size: 16px;
+    opacity: none !important;
+} */

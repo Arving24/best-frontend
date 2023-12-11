@@ -1,0 +1,137 @@
+/* Sidebar Main */
+.sidebar {
+  position: fixed;
+  display: flex;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  width: 18rem;
+  height: 100%;
+  background-color: #2f2f2f;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.sidebar hr {
+  border: 1px solid #fff;
+  margin: -15px 0;
+  order: 2;
+}
+
+/* Sidebar Header */
+.sidebar_header {
+  width: 100;
+  text-align: center;
+  padding: 20px;
+  order: 1;
+  height: 20%;
+  border-bottom: 1px solid rgb(139, 138, 138);
+
+}
+
+.sidebar_header img {
+  height: 30px;
+}
+
+.sidebar_header_title {
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar Content	 */
+.sidebar_content {
+  word-wrap: break-word;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  order: 3;
+  color: #fff;
+  padding-top: 0px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.sidebar_content h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.sidebar_content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.sidebar_content li {
+  margin-bottom: 5px;
+  color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar_content a {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.sidebar_content button {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  background-color: transparent;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  height: 40px;
+  text-align: left;
+}
+
+.sidebar_content a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.fontawesome_icon {
+  padding: 0px 10px 0px 5px;
+}
+
+.fi_margin {
+  margin-left: 10px;
+}
+
+nav a.active {
+  background-color: lightgray;
+  color: #000;
+}
+
+/* Scrollbar customization */
+.sidebar_content::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: #b3b3b4;
+  scrollbar-width: thin;
+}
+
+.sidebar_content::-webkit-scrollbar-thumb {
+  background-color: #555;
+  display: block;
+  border-radius: 20px;
+}
+
+
+.sidebar_version {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  order: 3;
+  color: #fff;
+  border-top: 1px solid rgb(139, 138, 138);
+}

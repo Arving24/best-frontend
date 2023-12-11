@@ -1,0 +1,39 @@
+.invalid input {
+  border-color: #c73f09 !important;
+}
+
+.inputContainer i {
+  color: red;
+}
+
+.inputContainer {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  width: 70%;
+  margin-left: 15px;
+}
+
+.buttonContainer {
+  margin-right: 20px;
+  text-align: right;
+}
+
+.buttonContainer button {
+  margin-left: 5px;
+}
+
+.inputContainer p {
+  font-size: 10px;
+  color: red;
+}
+
+.switchContainer {
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 0 5px 15px;
+  }
+  
+  .switchDiv {
+    margin-left: 5px;
+  }

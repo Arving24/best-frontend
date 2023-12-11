@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(175, 189, 202);
+    display: flex;
+}
+
+.errorPage_content {
+    width: 60%;
+    height: 60%;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+    /* border: 1px solid black; */
+    background-color: white;
+    margin-top: 20vh;
+    margin: auto;
+}
+
+.text_container {
+    width:50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    text-align: center;
+}
+
+.text_container p {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.custom_font {
+    font-size: 100px !important;
+}
+
+.message_font {
+    font-size: 14px !important;
+}
+
+.text_container button {
+    margin-top: 10%;
+    border: 1px solid rgb(129, 129, 129);
+}

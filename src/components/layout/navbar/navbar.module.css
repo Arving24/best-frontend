@@ -1,0 +1,91 @@
+.navbar {
+  background-color: #222;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  padding: 0;
+  height: 70px;
+  color: white;
+}
+
+.profileContainer {
+  width: 300px;
+  height: 60px;
+  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  color: white;
+}
+
+.profileContainerImg {
+  height: 50%;
+  width: 35px;
+  border-radius: 55%;
+  margin-top: 19px;
+  color: white;
+}
+
+.profileContainerImg img {
+  height: 100%;
+  width: 35px;
+  border-radius: 55%;
+  color: white;
+}
+
+.profileContainerName {
+  height: 100%;
+  width: 170px;
+  padding-left: 10px;
+}
+
+.profileContainerName p {
+  margin-top: 25px;
+}
+
+.profileContainerDropdown {
+  height: 100%;
+  width: 55px;
+  padding-top: 25px;
+}
+
+.fontawesome_icon {
+  padding: 0px 10px 0px 5px;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+  background-color: #222;
+  border: none;
+  color: white;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  z-index: 5;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+  color: black;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 8px 12px;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+}
